@@ -107,7 +107,15 @@ This application is purely educational and should not be used for malicious purp
 
 ## Contributing
 
-Contributions to this project are welcome. If you have any ideas for improvements or would like to report a bug, please create an issue or submit a pull request on the [GitHub repository](repository-url).
+Contributions to this project are welcome. If you have any ideas for improvements or would like to report a bug, please create an issue or submit a pull request on the [GitHub repository](https://github.com/uwussimo/telegram-rat/).
+
+### Todo
+- [x] Get Telegram Data
+- [ ] Take a Screenshot /screenshot
+- [ ] Record Microphone /record 100
+- [ ] Restrat /restart
+- [ ] Shutdown /shutdown
+- [ ] etc. --> Your contributing choice
 
 ## License
 
