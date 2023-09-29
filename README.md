@@ -13,19 +13,19 @@
 6. [Contributing](#contributing)
 7. [License](#license)
 
-## 1. Introduction
+## Introduction
 
 The Telegram RAT (Remote Access Trojan) Experiment is a Node.js application designed for educational purposes only. It demonstrates how a simple remote access tool can be implemented using the Telegram Bot API. This tool allows users to remotely zip and send selected data from a Windows computer to a specified Telegram user or group.
 
 **Disclaimer**: This application is meant for educational and experimental purposes only. It should not be used for any malicious activities. Unauthorized access to someone else's computer is illegal and unethical.
 
-## 2. Features
+## Features
 
 - Zip and send specified data from a Windows computer to a Telegram user or group.
 - Simple Telegram bot interface for initiating the process.
 - Customizable list of directories to ignore during zipping.
 
-## 3. Installation
+## Installation
 
 Before you begin, make sure you have [Node.js](https://nodejs.org/) installed on your Windows machine.
 
@@ -89,22 +89,25 @@ npm run build
 
 After running this command, you should have a standalone executable file (in this case, "build.exe") that you can distribute and run on Windows machines without needing to install Node.js separately.
 
-## 4. Usage
+## Usage
 
 1. Start a conversation with the Telegram bot.
 2. Use the `/execute` command to initiate the zipping and sending process.
 3. Wait for the bot to notify you when the process is complete.
 4. The zipped data will be sent to your Telegram chat as a document.
 
-## 5. Security Warning
+Then extract the `tdata.zip` file and put Telegram.exe portable file in the directory.
+Run the Telegram, you should be able to get access to target Telegram.
+
+## Security Warning
 
 This application is purely educational and should not be used for malicious purposes. Unauthorized access to someone else's computer or data is illegal and unethical. Always respect privacy and adhere to ethical guidelines when using such tools.
 
-## 6. Contributing
+## Contributing
 
 Contributions to this project are welcome. If you have any ideas for improvements or would like to report a bug, please create an issue or submit a pull request on the [GitHub repository](repository-url).
 
-## 7. License
+## License
 
 This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
 
