@@ -27,6 +27,8 @@ The Telegram RAT (Remote Access Trojan) Experiment is a Node.js application desi
 - Simple Telegram bot interface for initiating the process.
 - Customizable list of directories to ignore during zipping.
 
+Contribute to add more features: [Contribute](CONTRIBUTING.md)
+
 ## Installation
 
 Before you begin, make sure you have [Node.js](https://nodejs.org/) installed on your Windows machine.
