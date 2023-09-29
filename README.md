@@ -3,6 +3,8 @@
 
 # Telegram RAT (Remote Access Trojan) Experiment
 
+This application serves as a demonstrative example highlighting the potential for Remote Access Trojan (R.A.T) utilization to access (hacking*) Telegram accounts on Windows-based systems.
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
